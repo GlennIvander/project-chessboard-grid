@@ -1,0 +1,19 @@
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows: repeat(8, 80px);
+}
+
+.peachpuff, .brown {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.peachpuff {
+    background-color: peachpuff;
+}
+
+.brown {
+    background-color: brown;
+}
